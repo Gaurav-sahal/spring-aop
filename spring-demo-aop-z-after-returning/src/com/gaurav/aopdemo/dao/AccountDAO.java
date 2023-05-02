@@ -17,6 +17,7 @@ public class AccountDAO {
 	
 	public List<Account> findAccounts(){
 		
+		System.out.println("Inside findAccount() method");
 		List<Account> myAccounts = new ArrayList<>();
 		
 		//create sample accounts
